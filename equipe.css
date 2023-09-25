@@ -1,0 +1,20 @@
+.player-category{
+    padding-top: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.player-category .grid div{
+    background-color: red;
+}
+.player-category .grid div img{
+    width: 100%;
+}
+
+#gardiens{
+    padding-top: 10rem;
+}

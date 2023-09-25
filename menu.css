@@ -12,6 +12,7 @@
     height: 110px;
     z-index: 2;
     position: fixed;
+    display: block;
   }
   
   .navbar .logo img {
@@ -43,7 +44,7 @@
   }
   
   .navbar .nav-links ul li .link {
-    font-family: 'PSGBold', sans-serif;
+    font-family: 'PSG';
     transition: 0.3s ease;
     color: #ffffff;
     transition: all 0.2s ease;
@@ -65,36 +66,6 @@
     width: 1.5rem;
 }
 
-.image_psg{
-    width: 100%;
-    padding-top: 4.5rem;
-}
-
-body{
-    background: linear-gradient(155deg, rgba(49,127,188,1) 0%, rgba(21,39,54,1) 100%);
-}
-
-.kylian-mbappe{
-  margin-top: 5%;
-  width: 15rem;
-  float: right;
-}
-
-h3{
-  color: white;
-  text-align: center;
-  padding-top: 1.5rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-}
-
-a{
-  text-decoration: none;
-  color: red;
-  background-color: white;
-  border-radius: 10px;
-  margin-left: 3.60rem;
-}
 
 @media screen and (max-width:769px) {
     .navbar .logo img {
