@@ -1,0 +1,44 @@
+.section-top{
+    padding-top: 140px;
+    background-image: linear-gradient(to right bottom, #458dc6, #3e7db0, #386e9a, #315f85, #2a5071);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+.section-top h1{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.section-top p, .section-bottom p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#histoirePSG{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.section-bottom{
+    padding-top: 40px;
+    background-image: linear-gradient(to right bottom, #458dc6, #3e7db0, #386e9a, #315f85, #2a5071);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+.title, .event{
+    padding-bottom: 30px;
+}
+.date{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.date img{
+    width: 10%;
+}

@@ -12,6 +12,7 @@
     height: 110px;
     z-index: 2;
     position: fixed;
+    display: block;
   }
   
   .navbar .logo img {
@@ -43,7 +44,7 @@
   }
   
   .navbar .nav-links ul li .link {
-    font-family: 'Louis George Cafe';
+    font-family: 'PSG', sans-serif;
     transition: 0.3s ease;
     color: #ffffff;
     transition: all 0.2s ease;
@@ -65,8 +66,29 @@
     width: 1.5rem;
 }
 
+footer{
+    background: rgba(21,39,54,1);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+footer div{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 15px;
+}
+footer div h3{
+  color: rgb(170, 170, 170);
+}
+footer div a{
+  color: #fff;
+}
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
     .navbar .logo img {
       position: absolute;
       align-items: center;
@@ -115,6 +137,10 @@
     .navbar .menu-hamburger:hover {
       cursor: pointer;
     }
+
+    footer .map{
+      display: none;
+    }
 }
 
 @media screen and (max-width:481px) {
@@ -122,4 +148,27 @@
       margin: 1rem;
       font-size: 1rem;
     }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1224px){
+  footer{
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+}
+
+@media (min-width: 1224px) and (max-width: 1424px){
+  footer{
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
+
+@media (min-width: 1424px){
+  footer{
+      padding-left: 200px;
+      padding-right: 200px;
+  }
 }
