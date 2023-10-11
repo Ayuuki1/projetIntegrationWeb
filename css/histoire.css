@@ -10,8 +10,7 @@
 
 .banner-top p {
     padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    text-align: justify;
 }
 
 #equipepsg {
@@ -36,10 +35,11 @@
 }
 
 .date .description {
+    text-align: justify;
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #last-date {
@@ -56,6 +56,11 @@
         padding-left: 60px;
         padding-right: 60px;
     }
+
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1224px) {
@@ -69,6 +74,10 @@
         padding-right: 120px;
         padding-bottom: 20px;
         padding-top: 20px;
+    }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -84,6 +93,10 @@
         padding-bottom: 20px;
         padding-top: 20px;
     }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (min-width: 1424px) {
@@ -97,5 +110,9 @@
         padding-right: 240px;
         padding-bottom: 20px;
         padding-top: 20px;
+    }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
