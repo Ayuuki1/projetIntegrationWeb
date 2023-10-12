@@ -74,3 +74,14 @@
 .col-4 img{
   width: 100%;
 }
+
+@media screen and (max-width: 746x) {
+  .produitsDivers .container {
+    margin: 1em 2em;
+  }
+  .col-3 img {
+    width: 200px;
+  }
+  
+}
+
